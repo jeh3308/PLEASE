@@ -19,7 +19,7 @@
             width: 100%;
             margin: 0 auto;
             min-height: 100vh;
-            background-color: rgb(224, 222, 211);
+            background-color: rgb(210, 211, 220);
             padding: 100px;
             display: flex;
             justify-content: space-between;
@@ -73,13 +73,13 @@
         }
 
         .content .textBox h2 {
-            color: #333;
+            color: #7e7d85;
             font-size: 4em;
             line-height: 1.4em;
             font-weight: 500;
         }
         .content .textBox h2 span {
-            color: #017143;
+            color: #1f387d;
             font-size: 1.2em;
             font-weight: 900;
         }
@@ -87,7 +87,7 @@
             display: inline-block;
             margin-top: 20px;
             padding: 8px 20px;
-            background: #017143;
+            background: #1f387d;
             color: #fff;
             border-radius: 40px;
             font-weight: 500;
@@ -150,7 +150,7 @@
             left: 0%;
             width: 100%;
             height: 100%;
-            background-color: #017143;
+            background-color: #1f387d;
             clip-path: circle(600px at right 800px);
         }
 
@@ -173,19 +173,19 @@
         </header>
         <div class="content">
             <div class="textBox">
-                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                <h2>Want some Dessert?<br>Come to<BR> <span>PARIS BAGUETTE</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis culpa eum, soluta ab placeat, voluptas molestiae est excepturi consequatur aliquid voluptatibus enim qui tempore eaque voluptates dolores iusto iste nostrum.</p>
                 <a href="">Learn More</a>
             </div>
 
             <div class="imgBox">
-                <img src="./imgs/img1.png" alt="" class="starbucks">
+                <img src="./imgs/img1.png" alt="" class="paris baguette">
             </div>
         </div>
         <ul class="thumb">
-            <li><img src="./imgs/thumb1.png" alt="" onclick="imgSlider('./imgs/img1.png');changeCircleColor('#017143')"></li>
-            <li><img src="./imgs/thumb2.png" alt="" onclick="imgSlider('./imgs/img2.png');changeCircleColor('#eb7495')"></li>
-            <li><img src="./imgs/thumb3.png" alt="" onclick="imgSlider('./imgs/img3.png');changeCircleColor('#d752b1')"></li>
+            <li><img src="./imgs/thumb1.png" alt="" onclick="imgSlider('./imgs/img1.png');changeCircleColor('#1f387d')"></li>
+            <li><img src="./imgs/thumb2.png" alt="" onclick="imgSlider('./imgs/img2.png');changeCircleColor('#1f387d')"></li>
+            <li><img src="./imgs/thumb3.png" alt="" onclick="imgSlider('./imgs/img3.png');changeCircleColor('#1f387d')"></li>
         </ul>
         <ul class="sci">
             <li><a href=""><img src="./imgs/facebook.png" alt=""></a></li>
@@ -196,7 +196,7 @@
 
     <script>
         function imgSlider(anything) {
-            document.querySelector('.starbucks').src = anything;
+            document.querySelector('.paris baguette').src = anything;
         }
 
         function changeCircleColor(color) {
